@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header,
+.hero,
+footer{
+    background-color: #1f2937;
+}
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #f9faf8;
+}
+header>h3{
+    font-size: 24px;
+    font-weight: bolder;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 16px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+section,
+.hero-main,
+.card, 
+blockquote,
+.cta-div,
+footer
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    height: 70vh;
+    color: #f9faf8;
+    font-size: 18px;
+}
+.hero-main{
+    width: 70%;
+    gap: 3em;
+}
+#hero-main-text > h1{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+#hero-main-text > p{
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+#hero-main-text{
+    width: 50%;
+}
+#hero-main-img{
+    width: 50%;
+    height: 50%;
+}
+#hero-main-img>img{
+    width: 90%;
+    max-height: 100%;
+}
+button{
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+    color: #f9faf8;
+}
+.info{
+    height: 70vh;
+    flex-direction: column;
+    gap: 3em;
+    
+}
+.info > h2{
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1f2937;
+}
+.info-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+.card{
+    width: 200px;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 8px;
+
+}
+.card>img{
+    width: 100%;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+.card>p{
+    text-align: center;
+}
+.quote{
+    height: 50vh;
+    background-color: #e5e7eb;
+}
+
+blockquote{
+    width: 65%;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    padding: 2em;
+}
+blockquote>em{
+    width: 100%;
+    text-align: justify;
+}
+blockquote>p{
+    width: 100%;
+    font-size: 24px;
+    text-align: end;
+}
+.cta{
+    height: 40vh;
+}
+.cta-div{
+    width: 65%;
+    justify-content: space-around;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 16px;
+    padding: 3em;
+}
+.cta-div>button{
+    border: 2px solid white;
+}
+footer{
+    height: 100px;
+    color: #f9faf8;
+    font-size: 18px;
+}
